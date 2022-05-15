@@ -11,7 +11,7 @@ namespace JovemProgramadorMVC2.Data.Repositorio
     {
 
         private readonly BancoContexto _bancoContexto;
-        
+
         public AlunoRepositorio(BancoContexto bancoContexto)
         {
             _bancoContexto = bancoContexto;
@@ -79,7 +79,18 @@ namespace JovemProgramadorMVC2.Data.Repositorio
             }
 
             return null;
-           
+
+        }
+
+        public List<AlunoModel> FiltroNome(string nome)
+        {
+            return _bancoContexto.Aluno.Where(x => x.Nome.Contains(nome)).ToList();
+
+        }
+        public List<AlunoModel> FiltroContato(string contato)
+        {
+            return _bancoContexto.Aluno.Where(x => x.Contato.Contains(contato)).ToList();
+
         }
 
         public EnderecoModel InserirEndereco(EnderecoModel endereco)

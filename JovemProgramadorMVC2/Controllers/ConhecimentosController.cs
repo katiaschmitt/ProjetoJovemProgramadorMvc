@@ -8,10 +8,13 @@ namespace JovemProgramadorMVC2.Controllers
 {
     public class ConhecimentosController : Controller
     {
-        public IActionResult Conhecimentos()
+        public ConhecimentosController()
+        {
+
+        }
+        public IActionResult Index()
         {
             return View();
         }
-
     }
 }

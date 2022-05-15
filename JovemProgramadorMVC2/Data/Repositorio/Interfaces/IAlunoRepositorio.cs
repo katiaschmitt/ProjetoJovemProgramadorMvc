@@ -19,6 +19,8 @@ namespace JovemProgramadorMVC2.Data.Repositorio.Interfaces
         bool Excluir(int id);
 
         List<AlunoModel> FiltroIdade(int idade, string operacao);
+        List<AlunoModel> FiltroNome(string nome);
+        List<AlunoModel> FiltroContato(string contato);
 
         EnderecoModel InserirEndereco(EnderecoModel endereco);
 

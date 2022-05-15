@@ -31,7 +31,15 @@ namespace JovemProgramadorMVC2.Controllers
             {
                 aluno = _alunorepositorio.FiltroIdade(filtroAluno.Idade, filtroAluno.Operacao);
             }
-            else
+            if(filtroAluno.Nome != null)
+            {
+                aluno = _alunorepositorio.FiltroNome(filtroAluno.Nome);
+            }
+            if (filtroAluno.Contato != null)
+            {
+                aluno = _alunorepositorio.FiltroNome(filtroAluno.Contato);
+            }
+            if(filtroAluno.Id == 0)
             {
                 aluno = _alunorepositorio.BuscarAlunos();
             }

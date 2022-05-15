@@ -2363,7 +2363,6 @@ C:\Users\Diego\Documents\Katia\Enviar pro GitHub\JovemProgramadorMVC2\JovemProgr
 C:\Users\Diego\Documents\Katia\Enviar pro GitHub\JovemProgramadorMVC2\JovemProgramadorMVC2\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Diego\Documents\Katia\Enviar pro GitHub\JovemProgramadorMVC2\JovemProgramadorMVC2\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Diego\Documents\Katia\Enviar pro GitHub\JovemProgramadorMVC2\JovemProgramadorMVC2\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Diego\Documents\Katia\Enviar pro GitHub\JovemProgramadorMVC2\JovemProgramadorMVC2\obj\Debug\net5.0\Razor\Views\Teste\Index.cshtml.g.cs
 C:\Users\Diego\Documents\Katia\Enviar pro GitHub\JovemProgramadorMVC2\JovemProgramadorMVC2\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Diego\Documents\Katia\Enviar pro GitHub\JovemProgramadorMVC2\JovemProgramadorMVC2\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Diego\Documents\Katia\Enviar pro GitHub\JovemProgramadorMVC2\JovemProgramadorMVC2\obj\Debug\net5.0\JovemProgramadorMVC2.RazorTargetAssemblyInfo.cache

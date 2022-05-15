@@ -22,6 +22,7 @@ namespace JovemProgramadorMVC2.Data.Mapeamento
             builder.Property(t => t.localidade).HasColumnType("varchar(50)");
             builder.Property(t => t.uf).HasColumnType("varchar(2)");
             builder.Property(t => t.ddd).HasColumnType("varchar(3)");
+            builder.Property(t => t.bairro).HasColumnType("varchar(50)");
 
 
         }
